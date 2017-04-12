@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<meta name="robots" content="noindex">
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>File Size Checker</title>
+<style>
+.outer {
+  margin: 200px auto;
+  text-align: center;
+  width: 80%;
+  background-color: #eee;
+  border-radius: 5px;;
+}
+
+form {
+  padding: 20px 0;
+}
+
+
+#browse {
+  margin: 5px auto;
+  width: 80%;
+  background-color: white;
+  padding: 0;
+}
+
+#browse:hover {
+  background-color: white;
+}
+
+
+#submit {
+  margin: 5px auto;  
+}
+
+
+</style>
+</head>
+<body>
+<script src="https://code.jquery.com/jquery.min.js"></script>
+<link href="https://netdna.bootstrapcdn.com/twitter-bootstrap/2.3.2/css/bootstrap-combined.min.css" rel="stylesheet" type="text/css" />
+  <script src="https://netdna.bootstrapcdn.com/twitter-bootstrap/2.3.2/js/bootstrap.min.js"></script>
+<div class="outer">
+
+    <form action="fileChecker.php" method="post" id="form">
+        <input type="file" class="btn" name="mypath" id="browse">
+    <input type="submit" class="btn btn-success" id="submit" value="Submit">
+  </form>
+ 
+  </div>
+</body>
+</html>
