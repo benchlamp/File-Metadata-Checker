@@ -4,6 +4,8 @@ $path = $_POST["mypath"];
 
 function timeStamper($path) {
 
+	echo "path = " . $path . "<br/>";
+
 	$size = filesize($path);
 	 
 
